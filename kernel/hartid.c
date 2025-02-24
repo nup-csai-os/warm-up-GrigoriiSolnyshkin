@@ -7,5 +7,5 @@
 uint64
 sys_hartid(void)
 {
-  return 9;
+  return cpuid();
 }
